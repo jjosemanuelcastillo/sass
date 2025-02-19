@@ -27,3 +27,5 @@ $height: 100px;
     height: $height;
 
 }
+
+@debug math.div($anchura, 4);

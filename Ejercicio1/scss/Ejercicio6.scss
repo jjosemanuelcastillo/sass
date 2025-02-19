@@ -1,0 +1,17 @@
+$ancho1:40%;
+$ancho2:400px;
+
+
+.caja1{
+    width: $ancho1;
+    height: 100%;
+    background-color: red;
+    margin: 10px;
+}
+
+.caja2{
+    @extend .caja1;
+
+    height: $ancho2;
+    
+}

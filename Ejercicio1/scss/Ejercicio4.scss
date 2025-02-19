@@ -1,0 +1,29 @@
+@use "sass:map";
+
+// Definir un mapa de colores
+$colores: (
+  primario: red,
+  secundario: green,
+  terciario: blue,
+  fondo: #f4f4f4
+);
+
+$fuentes: (
+  principal: 25px,
+  secundaria: 20px,
+  terciaria: 15px
+  );
+ul{
+    color: map-get($colores, primario); // Acceder al color usando su clave
+    font-size: map-get($map: $fuentes, $key: principal);
+    ul {
+        color: map-get($colores, secundario); // Acceder al color usando su clave
+        font-size: map-get($map: $fuentes, $key: secundaria);
+        
+        
+        ul {
+            color: map-get($colores, terciario); // Acceder al color usando su clave
+            font-size: map-get($map: $fuentes, $key: terciaria);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+$no-decoratioN: none;
+$header-h1: aqua;
+$color-main:blue;
+$color-footer:red;
+header{
+    h1{
+        color: $header-h1;
+    }
+}
+main{
+    h2{
+        color: $color-main;
+    }
+}
+footer{
+
+    h4{
+       color: $color-footer; 
+    }
+    a:hover {
+        text-decoration: $no-decoratioN;
+    }
+}
