@@ -1,0 +1,25 @@
+$color:red;
+$fonts: 'Courier New', Courier, monospace;
+// @use './_Ejercicio1.scss' as ej with(
+//     $body-color: limegreen,
+//     $h1-color: red,
+// );
+
+@use './_Ejercicio1.scss' as ej;
+p{
+    color: ej.$color;
+    font-family: ej.$fonts;
+}
+
+body{
+    background-color:ej.$body-color;
+}
+
+.p{
+    color: ej.$color-li;
+}
+
+h1{
+    color: ej.$h1-color;
+    font-size: ej.$font-h1;
+}

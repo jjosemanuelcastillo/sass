@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: red;
+}
+
+p {
+  color: rgba(51, 255, 51, 0.8);
+}
+
+main p {
+  background-color: black;
+}
+
+/*Hola*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  height: 100px;
+}
+
+/*# sourceMappingURL=ejemplo1.css.map */

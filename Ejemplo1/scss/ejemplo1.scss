@@ -1,0 +1,38 @@
+//Variables SASS
+$color1: red;
+
+$color2: #3f3c;
+$font: Arial, sans-serif;
+
+body{
+    font-family: $font;
+}
+
+h1{
+    color: $color1;
+}
+
+p{
+    color: $color2;
+}
+
+
+main{
+    p{
+        background-color: black;
+    }
+}
+/*Hola*/
+
+@mixin centrado-flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    @include centrado-flexbox;
+    background-color: $color1;
+    color: white;
+    height: 100px;
+}

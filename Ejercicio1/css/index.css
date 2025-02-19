@@ -1,0 +1,19 @@
+p {
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgba(85, 85, 68, 0.4);
+}
+
+.p {
+  color: blue;
+}
+
+h1 {
+  color: blue;
+  font-size: 5rem;
+}
+
+/*# sourceMappingURL=index.css.map */
