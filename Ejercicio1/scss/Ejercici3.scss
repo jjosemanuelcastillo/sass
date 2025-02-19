@@ -1,0 +1,29 @@
+$anchura: 1200px;
+$fondo1 :orange;
+$fondo2 :blue;
+$fondo3 :red;
+$height: 100px;
+
+//Modulo matemático
+@use "sass:math";
+
+
+.mitad{
+    width: calc( $anchura / 2);
+    background-color: $fondo1;
+    height: $height;
+}
+
+.cuarto{
+    width: calc($anchura / 4);
+    background-color: $fondo2;
+    height: $height;
+
+}
+
+.octavo{
+    width: math.div($anchura, 8);
+    background-color: $fondo3;
+    height: $height;
+
+}
