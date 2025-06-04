@@ -1,0 +1,16 @@
+ul {
+  font-size: 3rem;
+  color: red;
+}
+
+ul ul {
+  font-size: 2rem;
+  color: blue;
+}
+
+ul ul ul {
+  font-size: 1rem;
+  color: orange;
+}
+
+/*# sourceMappingURL=Ejercicio4.css.map */

@@ -1,0 +1,20 @@
+
+$fuente1:sans-serif;
+$fuente2:verdana;
+$color1: red;
+$color2: blue;
+
+
+body{
+    font-family: $fuente1;
+}
+
+
+h1{
+    color: $color1;
+    font-family: $fuente2;
+}
+
+p{
+    color: $color2;
+}

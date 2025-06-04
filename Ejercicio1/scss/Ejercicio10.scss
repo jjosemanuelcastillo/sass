@@ -1,0 +1,10 @@
+$i:1;
+@while $i <= 5 {
+    
+    .ancho-col-#{$i} {
+        width: 100 / ($i + 1)+unquote("%"); // Usamos el valor directamente para hacer la operación
+        background-color: blue;
+        height: 200px;
+    }
+    $i: $i + 1;
+}

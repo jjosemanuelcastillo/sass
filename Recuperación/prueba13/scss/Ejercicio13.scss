@@ -1,0 +1,31 @@
+.card {
+    width: 500px;
+    margin: auto;
+    &:hover{
+        background-color: yellow;
+    }
+    &--grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    &__title {
+        text-align: center;
+        grid-column: 2;
+        color: green;
+    }
+
+    &__button {
+        grid-column: 2;
+        grid-row: 3;
+
+        &--tomato {
+            background-color: tomato;
+
+            &:hover {
+                background-color: blue;
+            }
+        }
+    }
+}

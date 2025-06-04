@@ -1,0 +1,29 @@
+@use '../scss/Ejercicio4-vars' as ejer4;
+@use 'sass:list';
+@use 'sass:map';
+
+
+ul {
+        font-size: map.get(ejer4.$fuentes, "Grande");
+        color: list.nth(ejer4.$colores, 3);
+}
+
+ul {
+    ul {
+
+        font-size: map.get(ejer4.$fuentes, "mediano");
+        color: list.nth(ejer4.$colores, 2);
+    }
+}
+
+ul {
+
+    ul {
+
+        ul {
+
+            font-size: map.get(ejer4.$fuentes, "pequeño");
+            color: list.nth(ejer4.$colores, 1);
+        }
+    }
+}

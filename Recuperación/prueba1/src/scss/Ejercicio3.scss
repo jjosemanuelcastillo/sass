@@ -1,0 +1,14 @@
+@use '../scss/Ejercicio3-vars' as ejer3;
+
+.mitad{
+    width: ejer3.$ancho / ejer3.$mitad;
+    color: ejer3.$color-mitad;
+}
+.cuarto{
+    width: ejer3.$ancho / ejer3.$cuarto;
+    color: ejer3.$color-cuarto;
+}
+.octavo{
+    width: ejer3.$ancho / ejer3.$octavo;
+    color: ejer3.$color-octavo;
+}

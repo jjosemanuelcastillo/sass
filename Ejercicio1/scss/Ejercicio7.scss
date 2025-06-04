@@ -1,0 +1,13 @@
+@use "sass:math";
+
+$tamaño: 200px;
+$nPartes: 10;
+
+@function width($tamaño, $nPartes) {
+    @return math.div($tamaño, $nPartes);
+}
+
+.décimo {  // Se mantiene el nombre con tilde para coincidir con HTML
+    width: width($tamaño, $nPartes);
+    background-color: blue;
+}

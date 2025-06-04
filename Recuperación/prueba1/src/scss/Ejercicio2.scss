@@ -1,0 +1,17 @@
+// @use '../scss/Ejercicio2-vars' as ejer2;
+
+//3)Valores por defecto
+@use '../scss/Ejercicio2-vars' as ejer2 with (
+    $body-color: green,
+    $h1-color: aqua
+);
+
+body{
+    color: ejer2.$body-color;
+    font-size: ejer2.$body-font-size;
+}
+
+h1{
+    color:  ejer2.$h1-color;
+    font-size: ejer2.$h1-font-size;
+}

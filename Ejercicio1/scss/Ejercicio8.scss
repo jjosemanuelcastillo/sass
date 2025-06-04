@@ -1,0 +1,6 @@
+@for $i from 9 through 0 {
+    .color#{$i} {
+        background-color: unquote("##{$i}00000");
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.card {
+  width: 500px;
+  margin: auto;
+}
+.card:hover {
+  background-color: yellow;
+}
+.card--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.card__title {
+  text-align: center;
+  grid-column: 2;
+  color: green;
+}
+.card__button {
+  grid-column: 2;
+  grid-row: 3;
+}
+.card__button--tomato {
+  background-color: tomato;
+}
+.card__button--tomato:hover {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=Ejercicio13.css.map */
