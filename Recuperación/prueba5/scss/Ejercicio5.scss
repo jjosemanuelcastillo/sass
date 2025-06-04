@@ -1,0 +1,30 @@
+$color-h1: green;
+$color-h2: blue;
+$color-h4: brown;
+$color-a: red;
+
+header{
+    h1{
+        color: $color-h1;
+    }
+}
+
+main{
+    h2{
+        color: $color-h2;
+    }
+}
+
+footer{
+    h4{
+        color: $color-h4;
+    }
+    li{
+        a{
+            color: $color-a;
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    }
+}

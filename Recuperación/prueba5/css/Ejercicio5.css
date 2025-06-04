@@ -1,0 +1,19 @@
+header h1 {
+  color: green;
+}
+
+main h2 {
+  color: blue;
+}
+
+footer h4 {
+  color: brown;
+}
+footer li a {
+  color: red;
+}
+footer li a:hover {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Ejercicio5.css.map */
