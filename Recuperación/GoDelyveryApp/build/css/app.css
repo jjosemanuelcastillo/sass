@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header__logo {
+  width: 200px;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+}
+.navigation__link {
+  text-decoration: none;
+  color: black;
+}
+.navigation__link--register {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=app.css.map */
