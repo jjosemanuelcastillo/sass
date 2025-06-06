@@ -1,8 +1,8 @@
 .header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .header__logo {
   width: 200px;
@@ -10,7 +10,9 @@
 
 .navigation {
   display: flex;
-  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
 }
 .navigation__link {
   text-decoration: none;
@@ -27,6 +29,10 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=app.css.map */
